@@ -1,0 +1,49 @@
+.outer{
+      width: 280px;
+    height: 320px;
+    background-color: azure;
+    border-radius: 14px;
+    margin: 40px auto;
+}
+.back{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+     border-radius: 14px 14px 0 0 ;
+}
+.profile{
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgb(14, 158, 224);
+    background-image: url("pic.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 70px ;
+    margin-top: -70px;
+}
+.intro{
+    margin-left: 90px ;
+}
+.btn{
+    margin-left: 60px;
+   
+}
+.btn #btn1{
+    margin-left: -20px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.btn #btn2{
+    margin-left: 40px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.icon{
+    margin: 20px 0 0 90px;
+   
+}
+.icon i:hover{
+        transform: scale(1.4);
+         transition: 1s;
+}
+
